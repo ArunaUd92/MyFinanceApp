@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		332F97FF2BAB394100F5B8F4 /* MyFinanceAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F97FE2BAB394100F5B8F4 /* MyFinanceAppApp.swift */; };
+		332F98012BAB394100F5B8F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F98002BAB394100F5B8F4 /* ContentView.swift */; };
+		332F98032BAB394300F5B8F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 332F98022BAB394300F5B8F4 /* Assets.xcassets */; };
+		332F98062BAB394300F5B8F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 332F98052BAB394300F5B8F4 /* Preview Assets.xcassets */; };
+		332F98102BAB394300F5B8F4 /* MyFinanceAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F980F2BAB394300F5B8F4 /* MyFinanceAppTests.swift */; };
+		332F981A2BAB394300F5B8F4 /* MyFinanceAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F98192BAB394300F5B8F4 /* MyFinanceAppUITests.swift */; };
+		332F981C2BAB394300F5B8F4 /* MyFinanceAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F981B2BAB394300F5B8F4 /* MyFinanceAppUITestsLaunchTests.swift */; };
+		332F982C2BAC2E3D00F5B8F4 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F982B2BAC2E3D00F5B8F4 /* LoginViewModel.swift */; };
+		332F982F2BAC2FA500F5B8F4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F982E2BAC2FA400F5B8F4 /* User.swift */; };
+		332F98332BAC300200F5B8F4 /* AuthenticationUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F98322BAC300200F5B8F4 /* AuthenticationUseCase.swift */; };
+		332F98362BAC309600F5B8F4 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F98352BAC309600F5B8F4 /* AuthenticationService.swift */; };
+		332F98382BAD96C000F5B8F4 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F98372BAD96C000F5B8F4 /* NetworkService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		332F980C2BAB394300F5B8F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 332F97F32BAB394100F5B8F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 332F97FA2BAB394100F5B8F4;
+			remoteInfo = MyFinanceApp;
+		};
+		332F98162BAB394300F5B8F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 332F97F32BAB394100F5B8F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 332F97FA2BAB394100F5B8F4;
+			remoteInfo = MyFinanceApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		332F97FB2BAB394100F5B8F4 /* MyFinanceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFinanceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		332F97FE2BAB394100F5B8F4 /* MyFinanceAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFinanceAppApp.swift; sourceTree = "<group>"; };
+		332F98002BAB394100F5B8F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		332F98022BAB394300F5B8F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		332F98052BAB394300F5B8F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		332F980B2BAB394300F5B8F4 /* MyFinanceAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFinanceAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		332F980F2BAB394300F5B8F4 /* MyFinanceAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFinanceAppTests.swift; sourceTree = "<group>"; };
+		332F98152BAB394300F5B8F4 /* MyFinanceAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFinanceAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		332F98192BAB394300F5B8F4 /* MyFinanceAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFinanceAppUITests.swift; sourceTree = "<group>"; };
+		332F981B2BAB394300F5B8F4 /* MyFinanceAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFinanceAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		332F982B2BAC2E3D00F5B8F4 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		332F982E2BAC2FA400F5B8F4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		332F98322BAC300200F5B8F4 /* AuthenticationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationUseCase.swift; sourceTree = "<group>"; };
+		332F98352BAC309600F5B8F4 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		332F98372BAD96C000F5B8F4 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		332F97F82BAB394100F5B8F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		332F98082BAB394300F5B8F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		332F98122BAB394300F5B8F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		332F97F22BAB394100F5B8F4 = {
+			isa = PBXGroup;
+			children = (
+				332F97FD2BAB394100F5B8F4 /* MyFinanceApp */,
+				332F980E2BAB394300F5B8F4 /* MyFinanceAppTests */,
+				332F98182BAB394300F5B8F4 /* MyFinanceAppUITests */,
+				332F97FC2BAB394100F5B8F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		332F97FC2BAB394100F5B8F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				332F97FB2BAB394100F5B8F4 /* MyFinanceApp.app */,
+				332F980B2BAB394300F5B8F4 /* MyFinanceAppTests.xctest */,
+				332F98152BAB394300F5B8F4 /* MyFinanceAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		332F97FD2BAB394100F5B8F4 /* MyFinanceApp */ = {
+			isa = PBXGroup;
+			children = (
+				332F98342BAC303800F5B8F4 /* ServiceProtocols */,
+				332F98302BAC2FCF00F5B8F4 /* UseCases */,
+				332F982D2BAC2E7000F5B8F4 /* Sevices */,
+				332F982A2BABCE1900F5B8F4 /* Models */,
+				332F98292BABCBB900F5B8F4 /* ViewModels */,
+				332F98282BAB4EE100F5B8F4 /* Views */,
+				332F97FE2BAB394100F5B8F4 /* MyFinanceAppApp.swift */,
+				332F98022BAB394300F5B8F4 /* Assets.xcassets */,
+				332F98042BAB394300F5B8F4 /* Preview Content */,
+			);
+			path = MyFinanceApp;
+			sourceTree = "<group>";
+		};
+		332F98042BAB394300F5B8F4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				332F98052BAB394300F5B8F4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		332F980E2BAB394300F5B8F4 /* MyFinanceAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				332F980F2BAB394300F5B8F4 /* MyFinanceAppTests.swift */,
+			);
+			path = MyFinanceAppTests;
+			sourceTree = "<group>";
+		};
+		332F98182BAB394300F5B8F4 /* MyFinanceAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				332F98192BAB394300F5B8F4 /* MyFinanceAppUITests.swift */,
+				332F981B2BAB394300F5B8F4 /* MyFinanceAppUITestsLaunchTests.swift */,
+			);
+			path = MyFinanceAppUITests;
+			sourceTree = "<group>";
+		};
+		332F98282BAB4EE100F5B8F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				332F98002BAB394100F5B8F4 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		332F98292BABCBB900F5B8F4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				332F982B2BAC2E3D00F5B8F4 /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		332F982A2BABCE1900F5B8F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				332F982E2BAC2FA400F5B8F4 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		332F982D2BAC2E7000F5B8F4 /* Sevices */ = {
+			isa = PBXGroup;
+			children = (
+				332F98372BAD96C000F5B8F4 /* NetworkService.swift */,
+			);
+			path = Sevices;
+			sourceTree = "<group>";
+		};
+		332F98302BAC2FCF00F5B8F4 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				332F98322BAC300200F5B8F4 /* AuthenticationUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		332F98342BAC303800F5B8F4 /* ServiceProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				332F98352BAC309600F5B8F4 /* AuthenticationService.swift */,
+			);
+			path = ServiceProtocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		332F97FA2BAB394100F5B8F4 /* MyFinanceApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 332F981F2BAB394300F5B8F4 /* Build configuration list for PBXNativeTarget "MyFinanceApp" */;
+			buildPhases = (
+				332F97F72BAB394100F5B8F4 /* Sources */,
+				332F97F82BAB394100F5B8F4 /* Frameworks */,
+				332F97F92BAB394100F5B8F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFinanceApp;
+			productName = MyFinanceApp;
+			productReference = 332F97FB2BAB394100F5B8F4 /* MyFinanceApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		332F980A2BAB394300F5B8F4 /* MyFinanceAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 332F98222BAB394300F5B8F4 /* Build configuration list for PBXNativeTarget "MyFinanceAppTests" */;
+			buildPhases = (
+				332F98072BAB394300F5B8F4 /* Sources */,
+				332F98082BAB394300F5B8F4 /* Frameworks */,
+				332F98092BAB394300F5B8F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				332F980D2BAB394300F5B8F4 /* PBXTargetDependency */,
+			);
+			name = MyFinanceAppTests;
+			productName = MyFinanceAppTests;
+			productReference = 332F980B2BAB394300F5B8F4 /* MyFinanceAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		332F98142BAB394300F5B8F4 /* MyFinanceAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 332F98252BAB394300F5B8F4 /* Build configuration list for PBXNativeTarget "MyFinanceAppUITests" */;
+			buildPhases = (
+				332F98112BAB394300F5B8F4 /* Sources */,
+				332F98122BAB394300F5B8F4 /* Frameworks */,
+				332F98132BAB394300F5B8F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				332F98172BAB394300F5B8F4 /* PBXTargetDependency */,
+			);
+			name = MyFinanceAppUITests;
+			productName = MyFinanceAppUITests;
+			productReference = 332F98152BAB394300F5B8F4 /* MyFinanceAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		332F97F32BAB394100F5B8F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					332F97FA2BAB394100F5B8F4 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					332F980A2BAB394300F5B8F4 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 332F97FA2BAB394100F5B8F4;
+					};
+					332F98142BAB394300F5B8F4 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 332F97FA2BAB394100F5B8F4;
+					};
+				};
+			};
+			buildConfigurationList = 332F97F62BAB394100F5B8F4 /* Build configuration list for PBXProject "MyFinanceApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 332F97F22BAB394100F5B8F4;
+			productRefGroup = 332F97FC2BAB394100F5B8F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				332F97FA2BAB394100F5B8F4 /* MyFinanceApp */,
+				332F980A2BAB394300F5B8F4 /* MyFinanceAppTests */,
+				332F98142BAB394300F5B8F4 /* MyFinanceAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		332F97F92BAB394100F5B8F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332F98062BAB394300F5B8F4 /* Preview Assets.xcassets in Resources */,
+				332F98032BAB394300F5B8F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		332F98092BAB394300F5B8F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		332F98132BAB394300F5B8F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		332F97F72BAB394100F5B8F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332F982F2BAC2FA500F5B8F4 /* User.swift in Sources */,
+				332F98012BAB394100F5B8F4 /* ContentView.swift in Sources */,
+				332F97FF2BAB394100F5B8F4 /* MyFinanceAppApp.swift in Sources */,
+				332F98362BAC309600F5B8F4 /* AuthenticationService.swift in Sources */,
+				332F98332BAC300200F5B8F4 /* AuthenticationUseCase.swift in Sources */,
+				332F982C2BAC2E3D00F5B8F4 /* LoginViewModel.swift in Sources */,
+				332F98382BAD96C000F5B8F4 /* NetworkService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		332F98072BAB394300F5B8F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332F98102BAB394300F5B8F4 /* MyFinanceAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		332F98112BAB394300F5B8F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332F981A2BAB394300F5B8F4 /* MyFinanceAppUITests.swift in Sources */,
+				332F981C2BAB394300F5B8F4 /* MyFinanceAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		332F980D2BAB394300F5B8F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 332F97FA2BAB394100F5B8F4 /* MyFinanceApp */;
+			targetProxy = 332F980C2BAB394300F5B8F4 /* PBXContainerItemProxy */;
+		};
+		332F98172BAB394300F5B8F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 332F97FA2BAB394100F5B8F4 /* MyFinanceApp */;
+			targetProxy = 332F98162BAB394300F5B8F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		332F981D2BAB394300F5B8F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		332F981E2BAB394300F5B8F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		332F98202BAB394300F5B8F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyFinanceApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FreshGradeApp.MyFinanceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		332F98212BAB394300F5B8F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyFinanceApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FreshGradeApp.MyFinanceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		332F98232BAB394300F5B8F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FreshGradeApp.MyFinanceAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFinanceApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyFinanceApp";
+			};
+			name = Debug;
+		};
+		332F98242BAB394300F5B8F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FreshGradeApp.MyFinanceAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFinanceApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyFinanceApp";
+			};
+			name = Release;
+		};
+		332F98262BAB394300F5B8F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FreshGradeApp.MyFinanceAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyFinanceApp;
+			};
+			name = Debug;
+		};
+		332F98272BAB394300F5B8F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FreshGradeApp.MyFinanceAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyFinanceApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		332F97F62BAB394100F5B8F4 /* Build configuration list for PBXProject "MyFinanceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				332F981D2BAB394300F5B8F4 /* Debug */,
+				332F981E2BAB394300F5B8F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		332F981F2BAB394300F5B8F4 /* Build configuration list for PBXNativeTarget "MyFinanceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				332F98202BAB394300F5B8F4 /* Debug */,
+				332F98212BAB394300F5B8F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		332F98222BAB394300F5B8F4 /* Build configuration list for PBXNativeTarget "MyFinanceAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				332F98232BAB394300F5B8F4 /* Debug */,
+				332F98242BAB394300F5B8F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		332F98252BAB394300F5B8F4 /* Build configuration list for PBXNativeTarget "MyFinanceAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				332F98262BAB394300F5B8F4 /* Debug */,
+				332F98272BAB394300F5B8F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 332F97F32BAB394100F5B8F4 /* Project object */;
+}
