@@ -10,7 +10,6 @@ import SwiftUI
 struct ContentView: View {
     @StateObject var viewModel = LoginViewModel(authUseCase: AuthenticationUseCase(authService: AuthenticationService()))
     
-
     var body: some View {
         NavigationView {
             VStack {
@@ -49,12 +48,12 @@ struct ContentView: View {
                         .padding(.bottom, 10)
                 }
                 
-               
+                
                 Button("Forgot Password?") {
                     // Forgot password action
                 }
                 .padding(.bottom, 20)
-
+                
                 Button("LOGIN") {
                     // Login action
                     viewModel.login()
@@ -64,6 +63,10 @@ struct ContentView: View {
                 .foregroundColor(.white)
                 .cornerRadius(5.0)
                 .disabled(!viewModel.isEmailValid || !viewModel.isPasswordValid)
+                
+                NavigationLink(destination: TransactionsView(), isActive: $viewModel.isLoggedIn) {
+                    EmptyView()
+                }
                 
                 Spacer()
                 

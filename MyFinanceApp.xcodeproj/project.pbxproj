@@ -19,6 +19,13 @@
 		332F98332BAC300200F5B8F4 /* AuthenticationUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F98322BAC300200F5B8F4 /* AuthenticationUseCase.swift */; };
 		332F98362BAC309600F5B8F4 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F98352BAC309600F5B8F4 /* AuthenticationService.swift */; };
 		332F98382BAD96C000F5B8F4 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F98372BAD96C000F5B8F4 /* NetworkService.swift */; };
+		332F983A2BADF4BC00F5B8F4 /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F98392BADF4BC00F5B8F4 /* TransactionsView.swift */; };
+		332F983C2BAEE7EB00F5B8F4 /* FetchTransactionsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F983B2BAEE7EB00F5B8F4 /* FetchTransactionsUseCase.swift */; };
+		332F983E2BAEE83B00F5B8F4 /* TransactionsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F983D2BAEE83B00F5B8F4 /* TransactionsService.swift */; };
+		332F98402BAEE8CA00F5B8F4 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F983F2BAEE8C900F5B8F4 /* Transaction.swift */; };
+		332F98432BAEE96A00F5B8F4 /* TransactionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F98422BAEE96A00F5B8F4 /* TransactionsViewModel.swift */; };
+		332F98452BAFA26F00F5B8F4 /* AccountDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F98442BAFA26F00F5B8F4 /* AccountDetails.swift */; };
+		332F98472BAFBAFB00F5B8F4 /* TransactionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F98462BAFBAFB00F5B8F4 /* TransactionsUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +61,13 @@
 		332F98322BAC300200F5B8F4 /* AuthenticationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationUseCase.swift; sourceTree = "<group>"; };
 		332F98352BAC309600F5B8F4 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
 		332F98372BAD96C000F5B8F4 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		332F98392BADF4BC00F5B8F4 /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
+		332F983B2BAEE7EB00F5B8F4 /* FetchTransactionsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchTransactionsUseCase.swift; sourceTree = "<group>"; };
+		332F983D2BAEE83B00F5B8F4 /* TransactionsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsService.swift; sourceTree = "<group>"; };
+		332F983F2BAEE8C900F5B8F4 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		332F98422BAEE96A00F5B8F4 /* TransactionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewModel.swift; sourceTree = "<group>"; };
+		332F98442BAFA26F00F5B8F4 /* AccountDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetails.swift; sourceTree = "<group>"; };
+		332F98462BAFBAFB00F5B8F4 /* TransactionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +150,7 @@
 		332F98182BAB394300F5B8F4 /* MyFinanceAppUITests */ = {
 			isa = PBXGroup;
 			children = (
+				332F98462BAFBAFB00F5B8F4 /* TransactionsUITests.swift */,
 				332F98192BAB394300F5B8F4 /* MyFinanceAppUITests.swift */,
 				332F981B2BAB394300F5B8F4 /* MyFinanceAppUITestsLaunchTests.swift */,
 			);
@@ -146,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				332F98002BAB394100F5B8F4 /* ContentView.swift */,
+				332F98392BADF4BC00F5B8F4 /* TransactionsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -154,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				332F982B2BAC2E3D00F5B8F4 /* LoginViewModel.swift */,
+				332F98422BAEE96A00F5B8F4 /* TransactionsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -162,6 +179,8 @@
 			isa = PBXGroup;
 			children = (
 				332F982E2BAC2FA400F5B8F4 /* User.swift */,
+				332F983F2BAEE8C900F5B8F4 /* Transaction.swift */,
+				332F98442BAFA26F00F5B8F4 /* AccountDetails.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -178,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				332F98322BAC300200F5B8F4 /* AuthenticationUseCase.swift */,
+				332F983B2BAEE7EB00F5B8F4 /* FetchTransactionsUseCase.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -186,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				332F98352BAC309600F5B8F4 /* AuthenticationService.swift */,
+				332F983D2BAEE83B00F5B8F4 /* TransactionsService.swift */,
 			);
 			path = ServiceProtocols;
 			sourceTree = "<group>";
@@ -320,13 +341,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				332F98402BAEE8CA00F5B8F4 /* Transaction.swift in Sources */,
 				332F982F2BAC2FA500F5B8F4 /* User.swift in Sources */,
 				332F98012BAB394100F5B8F4 /* ContentView.swift in Sources */,
 				332F97FF2BAB394100F5B8F4 /* MyFinanceAppApp.swift in Sources */,
 				332F98362BAC309600F5B8F4 /* AuthenticationService.swift in Sources */,
 				332F98332BAC300200F5B8F4 /* AuthenticationUseCase.swift in Sources */,
+				332F983A2BADF4BC00F5B8F4 /* TransactionsView.swift in Sources */,
+				332F98432BAEE96A00F5B8F4 /* TransactionsViewModel.swift in Sources */,
 				332F982C2BAC2E3D00F5B8F4 /* LoginViewModel.swift in Sources */,
 				332F98382BAD96C000F5B8F4 /* NetworkService.swift in Sources */,
+				332F98452BAFA26F00F5B8F4 /* AccountDetails.swift in Sources */,
+				332F983E2BAEE83B00F5B8F4 /* TransactionsService.swift in Sources */,
+				332F983C2BAEE7EB00F5B8F4 /* FetchTransactionsUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +369,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				332F98472BAFBAFB00F5B8F4 /* TransactionsUITests.swift in Sources */,
 				332F981A2BAB394300F5B8F4 /* MyFinanceAppUITests.swift in Sources */,
 				332F981C2BAB394300F5B8F4 /* MyFinanceAppUITestsLaunchTests.swift in Sources */,
 			);
