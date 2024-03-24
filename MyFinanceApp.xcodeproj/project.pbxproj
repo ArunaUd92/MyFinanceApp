@@ -151,9 +151,9 @@
 		332F980E2BAB394300F5B8F4 /* MyFinanceAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				332F980F2BAB394300F5B8F4 /* MyFinanceAppTests.swift */,
 				332F984B2BB0773200F5B8F4 /* TransactionsViewModelTests.swift */,
 				332F984D2BB0915B00F5B8F4 /* LoginViewModelTests.swift */,
+				332F980F2BAB394300F5B8F4 /* MyFinanceAppTests.swift */,
 			);
 			path = MyFinanceAppTests;
 			sourceTree = "<group>";
