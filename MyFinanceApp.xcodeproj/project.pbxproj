@@ -26,6 +26,10 @@
 		332F98432BAEE96A00F5B8F4 /* TransactionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F98422BAEE96A00F5B8F4 /* TransactionsViewModel.swift */; };
 		332F98452BAFA26F00F5B8F4 /* AccountDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F98442BAFA26F00F5B8F4 /* AccountDetails.swift */; };
 		332F98472BAFBAFB00F5B8F4 /* TransactionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F98462BAFBAFB00F5B8F4 /* TransactionsUITests.swift */; };
+		332F984A2BB076FB00F5B8F4 /* MockTransactionsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F98492BB076FB00F5B8F4 /* MockTransactionsUseCase.swift */; };
+		332F984C2BB0773200F5B8F4 /* TransactionsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F984B2BB0773200F5B8F4 /* TransactionsViewModelTests.swift */; };
+		332F984E2BB0915B00F5B8F4 /* LoginViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F984D2BB0915B00F5B8F4 /* LoginViewModelTests.swift */; };
+		332F98502BB091BC00F5B8F4 /* MockAuthenticationUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F984F2BB091BC00F5B8F4 /* MockAuthenticationUseCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +72,10 @@
 		332F98422BAEE96A00F5B8F4 /* TransactionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewModel.swift; sourceTree = "<group>"; };
 		332F98442BAFA26F00F5B8F4 /* AccountDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetails.swift; sourceTree = "<group>"; };
 		332F98462BAFBAFB00F5B8F4 /* TransactionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsUITests.swift; sourceTree = "<group>"; };
+		332F98492BB076FB00F5B8F4 /* MockTransactionsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTransactionsUseCase.swift; sourceTree = "<group>"; };
+		332F984B2BB0773200F5B8F4 /* TransactionsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewModelTests.swift; sourceTree = "<group>"; };
+		332F984D2BB0915B00F5B8F4 /* LoginViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTests.swift; sourceTree = "<group>"; };
+		332F984F2BB091BC00F5B8F4 /* MockAuthenticationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAuthenticationUseCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +126,7 @@
 		332F97FD2BAB394100F5B8F4 /* MyFinanceApp */ = {
 			isa = PBXGroup;
 			children = (
+				332F98482BB076D000F5B8F4 /* Mocks */,
 				332F98342BAC303800F5B8F4 /* ServiceProtocols */,
 				332F98302BAC2FCF00F5B8F4 /* UseCases */,
 				332F982D2BAC2E7000F5B8F4 /* Sevices */,
@@ -143,6 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				332F980F2BAB394300F5B8F4 /* MyFinanceAppTests.swift */,
+				332F984B2BB0773200F5B8F4 /* TransactionsViewModelTests.swift */,
+				332F984D2BB0915B00F5B8F4 /* LoginViewModelTests.swift */,
 			);
 			path = MyFinanceAppTests;
 			sourceTree = "<group>";
@@ -209,6 +220,15 @@
 				332F983D2BAEE83B00F5B8F4 /* TransactionsService.swift */,
 			);
 			path = ServiceProtocols;
+			sourceTree = "<group>";
+		};
+		332F98482BB076D000F5B8F4 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				332F98492BB076FB00F5B8F4 /* MockTransactionsUseCase.swift */,
+				332F984F2BB091BC00F5B8F4 /* MockAuthenticationUseCase.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,6 +363,8 @@
 			files = (
 				332F98402BAEE8CA00F5B8F4 /* Transaction.swift in Sources */,
 				332F982F2BAC2FA500F5B8F4 /* User.swift in Sources */,
+				332F98502BB091BC00F5B8F4 /* MockAuthenticationUseCase.swift in Sources */,
+				332F984A2BB076FB00F5B8F4 /* MockTransactionsUseCase.swift in Sources */,
 				332F98012BAB394100F5B8F4 /* ContentView.swift in Sources */,
 				332F97FF2BAB394100F5B8F4 /* MyFinanceAppApp.swift in Sources */,
 				332F98362BAC309600F5B8F4 /* AuthenticationService.swift in Sources */,
@@ -361,6 +383,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				332F984E2BB0915B00F5B8F4 /* LoginViewModelTests.swift in Sources */,
+				332F984C2BB0773200F5B8F4 /* TransactionsViewModelTests.swift in Sources */,
 				332F98102BAB394300F5B8F4 /* MyFinanceAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

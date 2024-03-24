@@ -7,9 +7,10 @@
 
 import Foundation
 
-struct Transaction: Codable, Identifiable {
-    let id: String 
+struct Transaction: Codable, Identifiable, Equatable{
+    let id: String
     let title: String
     let subtitle: String
     let amount: String
+    
 }
