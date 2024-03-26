@@ -30,6 +30,7 @@
 		332F984C2BB0773200F5B8F4 /* TransactionsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F984B2BB0773200F5B8F4 /* TransactionsViewModelTests.swift */; };
 		332F984E2BB0915B00F5B8F4 /* LoginViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F984D2BB0915B00F5B8F4 /* LoginViewModelTests.swift */; };
 		332F98502BB091BC00F5B8F4 /* MockAuthenticationUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F984F2BB091BC00F5B8F4 /* MockAuthenticationUseCase.swift */; };
+		332F98522BB306FB00F5B8F4 /* LoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F98512BB306FB00F5B8F4 /* LoginUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		332F984B2BB0773200F5B8F4 /* TransactionsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewModelTests.swift; sourceTree = "<group>"; };
 		332F984D2BB0915B00F5B8F4 /* LoginViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTests.swift; sourceTree = "<group>"; };
 		332F984F2BB091BC00F5B8F4 /* MockAuthenticationUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAuthenticationUseCase.swift; sourceTree = "<group>"; };
+		332F98512BB306FB00F5B8F4 /* LoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 		332F98182BAB394300F5B8F4 /* MyFinanceAppUITests */ = {
 			isa = PBXGroup;
 			children = (
+				332F98512BB306FB00F5B8F4 /* LoginUITests.swift */,
 				332F98462BAFBAFB00F5B8F4 /* TransactionsUITests.swift */,
 				332F98192BAB394300F5B8F4 /* MyFinanceAppUITests.swift */,
 				332F981B2BAB394300F5B8F4 /* MyFinanceAppUITestsLaunchTests.swift */,
@@ -396,6 +399,7 @@
 				332F98472BAFBAFB00F5B8F4 /* TransactionsUITests.swift in Sources */,
 				332F981A2BAB394300F5B8F4 /* MyFinanceAppUITests.swift in Sources */,
 				332F981C2BAB394300F5B8F4 /* MyFinanceAppUITestsLaunchTests.swift in Sources */,
+				332F98522BB306FB00F5B8F4 /* LoginUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
